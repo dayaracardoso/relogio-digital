@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio Digital - Dayara Rossi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Relógio Digital</h1>
+  <main>
+    <div id="relogio">
+      <div class="circulo" style="--clr: #ff2972;">
+        <div class="pontos ponto_h"></div>
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70" id="hh"></circle>
+        </svg>
+        <div id="horas">00</div>
+      </div>
+      <div class="circulo" style="--clr: #fee800;">
+        <div class="pontos ponto_m"></div>
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70" id="mm"></circle>
+        </svg>
+        <div id="minutos">00</div>
+      </div>
+
+      <div class="circulo" style="--clr:#04fc42;">
+        <div class="pontos ponto_s"></div>
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70" id="ss"></circle>
+        </svg>
+        <div id="segundos">00</div>
+      </div>
+
+      <div class="ap">
+        <div id="ampm">AM</div>
+      </div>
+    </div>
+  </main>
+  <footer>Feito por Dayara Rossi - Maio 2022</footer>
+  <script src="script.js"></script>
+</body>
+</html>
